@@ -12,19 +12,17 @@
 2. Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
 3. Entrega – Possui status e código de rastreio.
 
-Coloquei o tipo na mesma entidade "cliente" e a regra de negócio deverá ser feita pelo Front End, ao escolher o tipo ele vai preencher as colunas corretas
+Coloquei o tipo na mesma entidade "cliente" e a regra de negócio deverá ser feita pelo Front End, ao escolher o tipo ele vai preencher as colunas corretas, criei uma nova entidade para cadastrar os tipos de pagamento e uma nova para o rastreamento das entregas.
 
-Criei uma nova entidade para cadastrar os tipos de pagamento e uma nova para o rastreamento das entregas
-
-### segundo desafio: criar um novo modelo de ordem de serviço para uma oficina mecânica
+### Segundo desafio: criar um novo modelo de ordem de serviço para uma oficina mecânica
 
 Narrativa:
 
-1. Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica
-2. Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões periódicas
-3. Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega.
-4. A partir da OS, calcula-se o valor de cada serviço, consultando-se uma tabela de referência de mão-de-obra
-5. O valor de cada peça também irá compor a OSO cliente autoriza a execução dos serviços
-6. A mesma equipe avalia e executa os serviços
-7. Os mecânicos possuem código, nome, endereço e especialidade
+1. Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica;
+2. Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões periódicas;
+3. Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega;
+4. A partir da OS, calcula-se o valor de cada serviço, consultando-se uma tabela de referência de mão-de-obra;
+5. O valor de cada peça também irá compor a OSO cliente autoriza a execução dos serviços;
+6. A mesma equipe avalia e executa os serviços;
+7. Os mecânicos possuem código, nome, endereço e especialidade;
 8. Cada OS possui: n°, data de emissão, um valor, status e uma data para conclusão dos trabalhos.
